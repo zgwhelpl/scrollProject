@@ -41,7 +41,7 @@ def showMessage(text, **kwargs):
     if 'speed' in kwargs:
         speed = kwargs.get('speed')
     if 'width' in kwargs:
-        if len(kwargs.get('width')) >= 1 and len(kwargs.get('width')) <= 8
+        if (len(kwargs.get('width')) >= 1 and len(kwargs.get('width')) <= 8):
             width = kwargs.get('width')
     if 'BGimage' in kwargs:
         if checkImage(kwargs.get('BGimage')):
