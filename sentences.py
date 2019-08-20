@@ -209,16 +209,16 @@ class sentence():
 		print("")
 
 	def frame(self, index):
-		frame = [
-		[], [], [], [], [], [], [], []
-		]
+		frame = []
 		if (index > len(self.matrix[0])-8 or index < 0):
 			print("Bad Index of " + str(index) + "! Range: 0 - " + str(self.maxIndex))
 		else:
 			for row in range(0, 8):
 				for column in range (index, index+8):
-					frame[row] = frame[row] + [self.matrix[row][column]]
+					frame[] = frame[] + [self.matrix[row][column]]
 		return frame
+
+
 
 
 
