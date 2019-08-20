@@ -22,4 +22,5 @@ usFlag = [
     ]
 
 showMessage("'Murica!'", BGimage = usFlag, font=[135,135,135])
+sense.clear()
 showMessage("Flags For Days", BGimage = usFlag, BGisFontColor=True)
