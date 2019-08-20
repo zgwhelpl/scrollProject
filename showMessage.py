@@ -64,7 +64,7 @@ def showMessage(text, **kwargs):
                 if (BGimage is not False and not BGisFontColor):
                     matrix[inst] = BGimage[inst]
                 elif (BGisFontColor):
-                    matrix[inst] = [BGimage[inst][0]/4, BGimage[inst][1]/4, BGimage[inst][2]/4
+                    matrix[inst] = [BGimage[inst][0]/4, BGimage[inst][1]/4, BGimage[inst][2]/4]
                 else:
                     matrix[inst] = [backGround[0], backGround[1], backGround[2]] #so set it to b = [0, 0, 0] / background
                     #the final result should be [[],[],[],...x64]
