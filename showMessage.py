@@ -4,23 +4,28 @@ from sense_hat import SenseHat
 from time import sleep
 sense = SenseHat()
 
-W = [255, 255, 255]
 B = [0, 0, 0]
-R = [255, 0, 0]
-G = [0, 255, 0]
-B = [0, 0, 255]
-
-matrix = [
-	W, W, W, W, W, W, W, W,
-	W, R, R, R, R, R, R, W,
-	W, R, G, G, G, G, R, W,
-	W, R, G, B, B, G, R, W, 
-	W, R, G, B, B, G, R, W,
-	W, R, G, G, G, G, R, W, 
-	W, R, R, R, R, R, R, W,
-	W, W, W, W, W, W, W, W
-]
-
-sense.set_pixels(matrix)
-sleep(3)
-sense.clear()
+def showMessage(text, **kwargs):
+    if 'font' in kwargs:
+        t = kwargs.get('font')
+    else :
+        t = [255, 255, 255]
+    if 'backGround' in kwargs:
+        b = kwargs.get('backGround')
+    else :
+        b = [0, 0, 0]
+    if 'speed' in kwargs:
+        speed = kwargs.get('speed')
+    else:
+        speed = .1
+    
+    matrix = [
+            b, b, b, b, b, b, b, b,
+            b, b, b, b, b, b, b, b,
+            b, b, b, b, b, b, b, b,
+            b, b, b, b, b, b, b, b,
+            b, b, b, b, b, b, b, b,
+            b, b, b, b, b, b, b, b,
+            b, b, b, b, b, b, b, b,
+    ]
+    
