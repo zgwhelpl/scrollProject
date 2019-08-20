@@ -14,8 +14,11 @@ for c in range(len(mySentence.matrix[0])-16):
 print string
 mySentence.printGrid()
 
-for x in range(40, 43):
+for x in range(7, 10):
 	frame = mySentence.frame(x)
-	for i in range(8):
-		print(frame[i])
+	for row in range(8):
+		string = ""
+		for col in range(8):
+			string = string + str(frame[row *8 + col ])
+		print(string)
 	print("-=-=-=-=-=-=-=-=-=-=-=-=-")

@@ -1,3 +1,4 @@
+
 '''def get2(*args):
 	length = 6
 	if args:
