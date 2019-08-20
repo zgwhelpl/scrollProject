@@ -16,44 +16,38 @@ def checkColor(RGB):
 			check = False
 	#print("Final: " + str(check))		
 	return check#'''
+
+def checkImage(img):
+    if len(img) is not 64:
+        return False
+    else :
+        for i in range(64):
+            if not checkColor(img[i]):
+                return False
+    return True
     
 def showMessage(text, **kwargs):
 
-    font = [255, 255, 255]
+    fontColor = [255, 255, 255]
     backGround = [0, 0, 0]
     speed = .1
     width = 8
     BGimage = False
-    if 'font' in kwargs:
-        font = kwargs.get('font')
-    '''else :
-        font = [255, 255, 255]
-        print("no font set")#'''
+    BGisFontColor = False
+    if 'fontColor' in kwargs:
+        fontColor = kwargs.get('fontColor')
     if 'backGround' in kwargs:
         backGround = kwargs.get('backGround')
-    '''else :
-        backGround = [0, 0, 0]
-        print("no BG set")#'''
     if 'speed' in kwargs:
         speed = kwargs.get('speed')
-    '''else:
-        speed = .1#'''
     if 'width' in kwargs:
-        width = kwargs.get('width')
-    '''else :
-        width = 8#'''
-    
-
+        if len(kwargs.get('width')) >= 1 and len(kwargs.get('width')) <= 8
+            width = kwargs.get('width')
     if 'BGimage' in kwargs:
-        flagRaised = False
-        if len(kwargs.get('BGimage')) == 64:
-            for color in kwargs.get('BGimage'):
-                if not checkColor(color):
-                    flagRaised = True
-        if not flagRaised:
-                BGimage = kwargs.get('BGimage')
-        '''else:
-            BGimage = False#'''
+        if checkImage(kwargs.get('BGimage')):
+            BGimage = kwargs.get('BGimage')
+            if 'BGisFontColor' in kwargs:
+                BGisFontColor = kwargs.get('BGisFontColor')
                
     sen = sentence(text)
     
@@ -61,7 +55,7 @@ def showMessage(text, **kwargs):
         matrix = sen.frame(index) #this is the slide at that frame
         for inst in range(64): #for each part of the slide (all 64)
             if matrix[inst]: #they should be 1's and 0's, so if 1
-                matrix[inst] = [font[0], font[1], font[2]] #set that inst to t = [255, 255, 255]
+                matrix[inst] = [fontColor[0], fontColor[1], fontColor[2]] #set that inst to t = [255, 255, 255]
             else : #otherwise its a 0
                 if (BGimage is not False):
                     matrix[inst] = BGimage[inst]
