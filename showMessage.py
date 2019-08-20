@@ -26,13 +26,11 @@ def showMessage(text, **kwargs):
     BGimage = False
     if 'font' in kwargs:
         font = kwargs.get('font')
-        print("the font is " + str(t))
     '''else :
         font = [255, 255, 255]
         print("no font set")#'''
     if 'backGround' in kwargs:
         backGround = kwargs.get('backGround')
-        print("the background is " + str(b))
     '''else :
         backGround = [0, 0, 0]
         print("no BG set")#'''
