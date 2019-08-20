@@ -1,24 +1,23 @@
 from characters import *
 from sentences import *
+from showMessage import *
+from sense_hat import SenseHat
+sense = SenseHat()
 
-'''char_2.printMatrix()
-char_2.printGrid()
+x = [100, 0, 0]
+y = [0, 0, 100]
 
-print(" -- Characters ^^ Characters --")
-print(" -- Sentences  vv  Sentences --")'''
+image = [
+    x, y, x, y, x, y, x, y,
+    y, x, y, x, y, x, y, x,
+    x, y, x, y, x, y, x, y,
+    y, x, y, x, y, x, y, x,
+    x, y, x, y, x, y, x, y,
+    y, x, y, x, y, x, y, x,
+    x, y, x, y, x, y, x, y,
+    y, x, y, x, y, x, y, x
+    ]
 
-mySentence = sentence("ABC123")
-string = ""
-for c in range(len(mySentence.matrix[0])-16):
-	string = string + str((c+8)%10)
-print string
-mySentence.printGrid()
-
-for x in range(7, 10):
-	frame = mySentence.frame(x)
-	for row in range(8):
-		string = ""
-		for col in range(8):
-			string = string + str(frame[row *8 + col ])
-		print(string)
-	print("-=-=-=-=-=-=-=-=-=-=-=-=-")
+sense.set_pixels(image)
+sleep(1)
+showMessage("Testy McGee*", BGimage = image)
