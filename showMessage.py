@@ -1,6 +1,7 @@
 from characters import *
 from sentences import *
 from sense_hat import SenseHat
+from time import sleep
 sense = SenseHat()
 
 W = [255, 255, 255]
@@ -21,3 +22,5 @@ matrix = [
 ]
 
 sense.set_pixels(matrix)
+sleep(3)
+sense.clear()
