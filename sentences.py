@@ -215,7 +215,7 @@ class sentence():
 		else:
 			for row in range(0, 8):
 				for column in range (index, index+8):
-					frame[] = frame[] + [self.matrix[row][column]]
+					frame = frame + [self.matrix[row][column]]
 		return frame
 
 
