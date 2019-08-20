@@ -1,0 +1,2003 @@
+'''def get2(*args):
+	length = 6
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, x, x, x, i,
+		i, x, i, i, i, x,
+		i, i, i, i, i, x,
+		i, i, i, i, x, i,
+		i, i, i, x, i, i,
+		i, i, x, i, i, i,
+		i, x, x, x, x, x
+	]
+	return char
+
+def get3(*args):
+	length = 6
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, x, x, x, x, x,
+		i, i, i, i, x, i,
+		i, i, i, x, i, i,
+		i, i, i, i, x, i,
+		i, i, i, i, i, x,
+		i, x, i, i, i, x,
+		i, i, x, x, x, i
+	]
+	return char
+
+def get4(*args):
+	length = 6
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, i, i, x, i,
+		i, i, i, x, x, i,
+		i, i, x, i, x, i,
+		i, x, i, i, x, i,
+		i, x, x, x, x, x,
+		i, i, i, i, x, i,
+		i, i, i, i, x, i
+	]
+	return char
+
+def get5(*args):
+	length = 6
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, x, x, x, x, x,
+		i, x, i, i, i, i,
+		i, x, x, x, x, i,
+		i, i, i, i, i, x,
+		i, i, i, i, i, x,
+		i, x, i, i, i, x,
+		i, i, x, x, x, i
+	]
+	return char
+
+def get6(*args):
+	length = 6
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, i, x, x, i,
+		i, i, x, i, i, i,
+		i, x, i, i, i, i,
+		i, x, x, x, x, i,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, i, x, x, x, i
+	]
+	return char
+
+def get7(*args):
+	length = 6
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, x, x, x, x, x,
+		i, i, i, i, i, x,
+		i, i, i, i, x, i,
+		i, i, i, x, i, i,
+		i, i, i, x, i, i,
+		i, i, i, x, i, i,
+		i, i, i, x, i, i
+	]
+	return char
+
+def get8(*args):
+	length = 6
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, x, x, x, i,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, i, x, x, x, i,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, i, x, x, x, i
+	]
+	return char
+
+def get9(*args):
+	length = 6
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, x, x, x, i,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, i, x, x, x, x,
+		i, i, i, i, i, x,
+		i, i, i, i, x, i,
+		i, i, x, x, i, i
+	]
+	return char
+
+def get0(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, x, x, x, i,
+		i, x, i, i, i, x,
+		i, x, i, i, x, x,
+		i, x, i, x, i, x,
+		i, x, x, i, i, x,
+		i, x, i, i, i, x,
+		i, i, x, x, x, i
+	]
+	return char
+
+
+
+def geta(*args):
+	length = 6
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, x, x, x, i,
+		i, i, i, i, i, x,
+		i, i, x, x, x, x,
+		i, x, i, i, i, x,
+		i, i, x, x, x, x
+	]
+	return char
+
+
+
+def getb(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, x, i, i, i, i,
+		i, x, i, i, i, i,
+		i, x, i, x, x, i,
+		i, x, x, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, i, x, x, x, i
+	]
+	return char
+
+
+
+def getc(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, x, x, x, i,
+		i, x, i, i, i, i,
+		i, x, i, i, i, i,
+		i, x, i, i, i, x,
+		i, i, x, x, x, i
+	]
+	return char
+
+
+
+def getd(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, i, i, i, x,
+		i, i, i, i, i, x,
+		i, i, x, x, i, x,
+		i, x, i, i, x, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, i, x, x, x, x
+	]
+	return char
+
+
+
+def gete(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, x, x, x, i,
+		i, x, i, i, i, x,
+		i, x, x, x, x, x,
+		i, x, i, i, i, i,
+		i, i, x, x, x, i
+	]
+	return char
+
+
+
+def getg(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, x, x, x, x,
+		i, x, i, i, i, x,
+		i, i, x, x, x, x,
+		i, i, i, i, i, x,
+		i, i, x, x, x, i
+	]
+	return char
+
+
+
+def geth(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, x, i, i, i, i,
+		i, x, i, i, i, i,
+		i, x, i, x, x, i,
+		i, x, x, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x
+	]
+	return char
+
+
+
+def getm(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, x, x, i, x, i,
+		i, x, i, x, i, x,
+		i, x, i, x, i, x,
+		i, x, i, x, i, x,
+		i, x, i, x, i, x
+	]
+	return char
+
+
+
+def getn(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, x, i, x, x, i,
+		i, x, x, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x
+	]
+	return char
+
+
+
+def geto(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, x, x, x, i,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, i, x, x, x, i
+	]
+	return char
+
+
+
+def getp(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, x, x, x, x, i,
+		i, x, i, i, i, x,
+		i, x, x, x, x, i,
+		i, x, i, i, i, i,
+		i, x, i, i, i, i
+	]
+	return char
+
+
+
+def getq(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, x, x, x, x,
+		i, x, i, i, i, x,
+		i, i, x, x, x, x,
+		i, i, i, i, i, x,
+		i, i, i, i, i, x
+	]
+	return char
+
+
+
+def gets(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, x, x, x, x,
+		i, x, i, i, i, i,
+		i, i, x, x, x, i,
+		i, i, i, i, i, x,
+		i, x, x, x, x, i
+	]
+	return char
+
+
+
+def getu(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, x, x,
+		i, i, x, x, i, x
+	]
+	return char
+
+
+
+def getv(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, i, x, i, x, i,
+		i, i, i, x, i, i
+	]
+	return char
+
+
+
+def getw(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, x, i, x,
+		i, i, x, i, x, i
+	]
+	return char
+
+
+
+def getx(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, x, x, i, i, x,
+		i, i, i, x, x, i,
+		i, i, i, x, i, i,
+		i, i, x, x, i, i,
+		i, x, i, i, x, x
+	]
+	return char
+
+
+
+def gety(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, x, i, i, i, x,
+		i, i, x, i, i, x,
+		i, i, i, x, x, i,
+		i, i, i, x, i, i,
+		i, x, x, i, i, i
+	]
+	return char
+
+
+
+def getz(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, x, x, x, x, x,
+		i, i, i, i, x, i,
+		i, i, i, x, i, i,
+		i, i, x, i, i, i,
+		i, x, x, x, x, x
+	]
+	return char
+
+
+
+def getA(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, x, x, x, i,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, x, x, x, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x
+	]
+	return char
+
+
+
+def getB(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, x, x, x, x, i,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, x, x, x, i,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, x, x, x, i
+	]
+	return char
+
+
+
+def getC(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, x, x, x, i,
+		i, x, i, i, i, x,
+		i, x, i, i, i, i,
+		i, x, i, i, i, i,
+		i, x, i, i, i, i,
+		i, x, i, i, i, x,
+		i, i, x, x, x, i
+	]
+	return char
+
+
+
+def getD(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, x, x, x, i, i,
+		i, x, i, i, x, i,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, x, i,
+		i, x, x, x, i, i
+	]
+	return char
+
+
+
+def getE(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, x, x, x, x, x,
+		i, x, i, i, i, i,
+		i, x, i, i, i, i,
+		i, x, x, x, x, i,
+		i, x, i, i, i, i,
+		i, x, i, i, i, i,
+		i, x, x, x, x, x
+	]
+	return char
+
+
+
+def getF(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, x, x, x, x, x,
+		i, x, i, i, i, i,
+		i, x, i, i, i, i,
+		i, x, i, i, i, i,
+		i, x, x, x, x, i,
+		i, x, i, i, i, i,
+		i, x, i, i, i, i,
+		i, x, i, i, i, i
+	]
+	return char
+
+
+
+def getG(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, x, x, x, i,
+		i, x, i, i, i, x,
+		i, x, i, i, i, i,
+		i, x, i, x, x, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, i, x, x, x, x
+	]
+	return char
+
+
+
+def getH(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, x, x, x, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x
+	]
+	return char
+
+
+
+def getJ(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, i, x, x, x,
+		i, i, i, i, x, i,
+		i, i, i, i, x, i,
+		i, i, i, i, x, i,
+		i, i, i, i, x, i,
+		i, x, i, i, x, i,
+		i, i, x, x, i, i
+	]
+	return char
+
+
+
+def getK(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, x, i, i, i, x,
+		i, x, i, i, x, i,
+		i, x, i, x, i, i,
+		i, x, x, i, i, i,
+		i, x, i, x, i, i,
+		i, x, i, i, x, i,
+		i, x, i, i, i, x
+	]
+	return char
+
+
+
+def getL(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, x, i, i, i, i,
+		i, x, i, i, i, i,
+		i, x, i, i, i, i,
+		i, x, i, i, i, i,
+		i, x, i, i, i, i,
+		i, x, i, i, i, i,
+		i, x, x, x, x, x
+	]
+	return char
+
+
+
+def getM(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, x, i, i, i, x,
+		i, x, x, i, x, x,
+		i, x, i, x, i, x,
+		i, x, i, x, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x
+	]
+	return char
+
+
+
+def getN(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, x, i, i, x,
+		i, x, i, x, i, x,
+		i, x, i, i, x, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x
+	]
+	return char
+
+
+
+def getO(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, x, x, x, i,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, i, x, x, x, i
+	]
+	return char
+
+
+
+def getP(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, x, x, x, x, i,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, x, x, x, i,
+		i, x, i, i, i, i,
+		i, x, i, i, i, i,
+		i, x, i, i, i, i
+	]
+	return char
+
+
+
+def getQ(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, x, x, x, i,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, x, i, x,
+		i, x, i, i, x, i,
+		i, i, x, x, i, x
+	]
+	return char
+
+
+
+def getR(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, x, x, x, x, i,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, x, x, x, i,
+		i, x, i, x, i, i,
+		i, x, i, i, x, i,
+		i, x, i, i, i, x
+	]
+	return char
+
+
+
+def getS(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, x, x, x, x,
+		i, x, i, i, i, i,
+		i, x, i, i, i, i,
+		i, i, x, x, x, i,
+		i, i, i, i, i, x,
+		i, i, i, i, i, x,
+		i, x, x, x, x, i
+	]
+	return char
+
+
+
+def getT(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, x, x, x, x, x,
+		i, i, i, x, i, i,
+		i, i, i, x, i, i,
+		i, i, i, x, i, i,
+		i, i, i, x, i, i,
+		i, i, i, x, i, i,
+		i, i, i, x, i, i
+	]
+	return char
+
+
+
+def getU(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, i, x, x, x, i
+	]
+	return char
+
+
+
+def getV(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, i, x, i, x, i,
+		i, i, i, x, i, i
+	]
+	return char
+
+
+
+def getW(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, x, i, x, i, x,
+		i, x, i, x, i, x,
+		i, x, x, i, x, x,
+		i, x, i, i, i, i
+	]
+	return char
+
+
+
+def getX(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, i, x, i, x, i,
+		i, i, i, x, i, i,
+		i, i, x, i, x, i,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x
+	]
+	return char
+
+
+
+def getY(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, x, i, i, i, x,
+		i, x, i, i, i, x,
+		i, i, x, i, x, i,
+		i, i, i, x, i, i,
+		i, i, i, x, i, i,
+		i, i, i, x, i, i,
+		i, i, i, x, i, i
+	]
+	return char
+
+
+
+def getZ(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, x, x, x, x, x,
+		i, i, i, i, i, x,
+		i, i, i, i, x, i,
+		i, i, i, x, i, i,
+		i, i, x, i, i, i,
+		i, x, i, i, i, i,
+		i, x, x, x, x, x
+	]
+	return char
+
+
+
+def getAtSymbol(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, x, x, x, i,
+		i, x, i, i, i, x,
+		i, i, i, i, i, x,
+		i, i, x, x, i, x,
+		i, x, i, x, i, x,
+		i, x, i, x, i, x,
+		i, i, x, x, x, i
+	]
+	return char
+
+
+
+def getHash(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, x, i, x, i,
+		i, i, x, i, x, i,
+		i, x, x, x, x, x,
+		i, i, x, i, x, i,
+		i, x, x, x, x, x,
+		i, i, x, i, x, i,
+		i, i, x, i, x, i
+	]
+	return char
+
+
+
+def getDollar(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, i, x, i, i,
+		i, i, x, x, x, x,
+		i, x, i, x, i, i,
+		i, i, x, x, x, i,
+		i, i, i, x, i, x,
+		i, x, x, x, x, i,
+		i, i, i, x, i, i
+	]
+	return char
+
+
+
+def getPercent(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, x, x, i, i, i,
+		i, x, x, i, i, x,
+		i, i, i, i, x, i,
+		i, i, i, x, i, i,
+		i, i, x, i, i, i,
+		i, x, i, i, x, x,
+		i, i, i, i, x, x
+	]
+	return char
+
+
+
+def getAmpersand(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, x, x, i, i,
+		i, x, i, i, x, i,
+		i, x, i, x, i, i,
+		i, i, x, i, i, i,
+		i, x, i, x, i, i,
+		i, x, i, i, x, i,
+		i, i, x, x, i, x
+	]
+	return char
+
+
+
+def getAsterisk(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, i, x, i, i,
+		i, x, i, x, i, x,
+		i, i, x, x, x, i,
+		i, x, i, x, i, x,
+		i, i, i, x, i, i,
+		i, i, i, i, i, i
+	]
+	return char
+
+
+
+def getDash(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, x, x, x, x, x,
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, i, i, i, i
+	]
+	return char
+
+
+
+def get_(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, x, x, x, x, x
+	]
+	return char
+
+
+
+def getEquals(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, x, x, x, x, x,
+		i, i, i, i, i, i,
+		i, x, x, x, x, x,
+		i, i, i, i, i, i,
+		i, i, i, i, i, i
+	]
+	return char
+
+
+
+def getPlus(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, i, i, i, i,
+		i, i, i, x, i, i,
+		i, i, i, x, i, i,
+		i, x, x, x, x, x,
+		i, i, i, x, i, i,
+		i, i, i, x, i, i,
+		i, i, i, i, i, i
+	]
+	return char
+
+
+
+def getQuestionMark(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i, i,
+		i, i, x, x, x, i,
+		i, x, i, i, i, x,
+		i, i, i, i, i, x,
+		i, i, i, i, x, i,
+		i, i, i, x, i, i,
+		i, i, i, i, i, i,
+		i, i, i, x, i, i
+	]
+	return char
+
+
+
+def getf(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i,
+		i, i, i, x, i,
+		i, i, x, i, x,
+		i, i, x, i, i,
+		i, x, x, x, i,
+		i, i, x, i, i,
+		i, i, x, i, i,
+		i, i, x, i, i
+	]
+	return char
+
+
+
+def getj(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i,
+		i, i, i, i, x,
+		i, i, i, i, i,
+		i, i, i, i, x,
+		i, i, i, i, x,
+		i, i, i, i, x,
+		i, x, i, i, x,
+		i, i, x, x, i
+	]
+	return char
+
+
+
+def getk(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i,
+		i, x, i, i, i,
+		i, x, i, i, i,
+		i, x, i, i, x,
+		i, x, i, x, i,
+		i, x, x, i, i,
+		i, x, i, x, i,
+		i, x, i, i, x
+	]
+	return char
+
+
+
+def getr(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i,
+		i, i, i, i, i,
+		i, i, i, i, i,
+		i, x, i, x, x,
+		i, x, x, i, i,
+		i, x, i, i, i,
+		i, x, i, i, i,
+		i, x, i, i, i
+	]
+	return char
+
+
+
+def gett(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i, i,
+		i, i, i, i, i,
+		i, i, x, i, i,
+		i, x, x, x, i,
+		i, i, x, i, i,
+		i, i, x, i, i,
+		i, i, x, i, x,
+		i, i, i, x, i
+	]
+	return char
+
+
+
+def geti(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i,
+		i, i, x, i,
+		i, i, i, i,
+		i, x, x, i,
+		i, i, x, i,
+		i, i, x, i,
+		i, i, x, i,
+		i, x, x, x
+	]
+	return char
+
+def getSpace(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i,
+		i, i, i, i,
+		i, i, i, i,
+		i, i, i, i,
+		i, i, i, i,
+		i, i, i, i,
+		i, i, i, i,
+		i, i, i, i
+	]
+	return char
+
+
+def getl(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i,
+		i, x, x, i,
+		i, i, x, i,
+		i, i, x, i,
+		i, i, x, i,
+		i, i, x, i,
+		i, i, x, i,
+		i, x, x, x
+	]
+	return char
+
+def get1(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i,
+		i, i, x, i,
+		i, x, x, i,
+		i, i, x, i,
+		i, i, x, i,
+		i, i, x, i,
+		i, i, x, i,
+		i, x, x, x
+	]
+	return char
+
+
+def getI(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i,
+		i, x, x, x,
+		i, i, x, i,
+		i, i, x, i,
+		i, i, x, i,
+		i, i, x, i,
+		i, i, x, i,
+		i, x, x, x
+	]
+	return char
+
+
+
+def getLParen(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i,
+		i, i, i, x,
+		i, i, x, i,
+		i, x, i, i,
+		i, x, i, i,
+		i, x, i, i,
+		i, i, x, i,
+		i, i, i, x
+	]
+	return char
+
+
+
+def getRParen(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i,
+		i, x, i, i,
+		i, i, x, i,
+		i, i, i, x,
+		i, i, i, x,
+		i, i, i, x,
+		i, i, x, i,
+		i, x, i, i
+	]
+	return char
+
+
+
+def getLBracket(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i,
+		i, x, x, x,
+		i, x, i, i,
+		i, x, i, i,
+		i, x, i, i,
+		i, x, i, i,
+		i, x, i, i,
+		i, x, x, x
+	]
+	return char
+
+
+
+def getRBracket(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i, i,
+		i, x, x, x,
+		i, i, i, x,
+		i, i, i, x,
+		i, i, i, x,
+		i, i, i, x,
+		i, i, i, x,
+		i, x, x, x
+	]
+	return char
+
+
+
+def getPeriod(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i,
+		i, i, i,
+		i, i, i,
+		i, i, i,
+		i, i, i,
+		i, i, i,
+		i, x, x,
+		i, x, x
+	]
+	return char
+
+
+
+def getComma(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i,
+		i, i, i,
+		i, i, i,
+		i, i, i,
+		i, i, i,
+		i, x, x,
+		i, i, x,
+		i, x, i
+	]
+	return char
+
+
+
+def getColon(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i,
+		i, i, i,
+		i, x, x,
+		i, x, x,
+		i, i, i,
+		i, x, x,
+		i, x, x,
+		i, i, i
+	]
+	return char
+
+
+
+def getSemiColon(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i, i,
+		i, i, i,
+		i, x, x,
+		i, x, x,
+		i, i, i,
+		i, x, x,
+		i, i, x,
+		i, x, i
+	]
+	return char
+
+
+
+def getExclamationPoint(*args):
+	if args:
+		i = args[1]
+	else:
+		i = "i"
+	if args:
+		x = args[0]
+	else:
+		x = "x"
+	char = [
+		i, i,
+		i, x,
+		i, x,
+		i, x,
+		i, x,
+		i, x,
+		i, i,
+		i, x
+	]
+	return char
+
+
+def printOut(matrix, char, charString):
+	#print(char)
+	print("#For the character \"" + char + "\"")
+	print("char_"+charString+" = character(")
+	width = len(matrix)/8
+	print("\t[")
+	for row in range(0,8):
+		string = "\t\t[ "
+		for column in range(0,width-1):
+
+			string = string+str(matrix[row*width+column])+", "
+		string = string+str(matrix[row*width+width-1])+" ],"
+		#string = string + "]"
+		print(string)
+	print("\t])\n\n")
+
+
+
+printOut(get2(), '2', '2')
+printOut(get3(), '3', '3')
+printOut(get4(), '4', '4')
+printOut(get5(), '5', '5')
+printOut(get6(), '6', '6')
+printOut(get7(), '7', '7')
+printOut(get8(), '8', '8')
+printOut(get9(), '9', '9')
+printOut(get0(), '0', '0')
+printOut(geta(), 'a', 'a')
+printOut(getb(), 'b', 'b')
+printOut(getc(), 'c', 'c')
+printOut(getd(), 'd', 'd')
+printOut(gete(), 'e', 'e')
+printOut(getg(), 'g', 'g')
+printOut(geth(), 'h', 'h')
+printOut(getm(), 'm', 'm')
+printOut(getn(), 'n', 'n')
+printOut(geto(), 'o', 'o')
+printOut(getp(), 'p', 'p')
+printOut(getq(), 'q', 'q')
+printOut(gets(), 's', 's')
+printOut(getu(), 'u', 'u')
+printOut(getv(), 'v', 'v')
+printOut(getw(), 'w', 'w')
+printOut(getx(), 'x', 'x')
+printOut(gety(), 'y', 'y')
+printOut(getz(), 'z', 'z')
+printOut(getA(), 'A', 'A')
+printOut(getB(), 'B', 'B')
+printOut(getC(), 'C', 'C')
+printOut(getD(), 'D', 'D')
+printOut(getE(), 'E', 'E')
+printOut(getF(), 'F', 'F')
+printOut(getG(), 'G', 'G')
+printOut(getH(), 'H', 'H')
+printOut(getJ(), 'J', 'J')
+printOut(getK(), 'K', 'K')
+printOut(getL(), 'L', 'L')
+printOut(getM(), 'M', 'M')
+printOut(getN(), 'N', 'N')
+printOut(getO(), 'O', 'O')
+printOut(getP(), 'P', 'P')
+printOut(getQ(), 'Q', 'Q')
+printOut(getR(), 'R', 'R')
+printOut(getS(), 'S', 'S')
+printOut(getT(), 'T', 'T')
+printOut(getU(), 'U', 'U')
+printOut(getV(), 'V', 'V')
+printOut(getW(), 'W', 'W')
+printOut(getX(), 'X', 'X')
+printOut(getY(), 'Y', 'Y')
+printOut(getZ(), 'Z', 'Z')
+printOut(getAtSymbol(), '@', 'AtSymbol')
+printOut(getHash(), '#', 'Hash')
+printOut(getDollar(), '$', 'Dollar')
+printOut(getPercent(), '%', 'Percent')
+printOut(getAmpersand(), '&', 'Ampersand')
+printOut(getAsterisk(), '*', 'Asterisk')
+printOut(getDash(), '-', 'Dash')
+printOut(get_(), '_', '_')
+printOut(getEquals(), '=', 'Equals')
+printOut(getPlus(), '+', 'Plus')
+printOut(getQuestionMark(), '?', 'QuestionMark')
+printOut(getf(), 'f', 'f')
+printOut(getj(), 'j', 'j')
+printOut(getk(), 'k', 'k')
+printOut(getr(), 'r', 'r')
+printOut(gett(), 't', 't')
+printOut(geti(), 'i', 'i')
+printOut(getSpace(), 'Space', 'Space')
+printOut(getl(), 'l', 'l')
+printOut(get1(), '1', '1')
+printOut(getI(), 'I', 'I')
+printOut(getLParen(), '(', 'LParen')
+printOut(getRParen(), ')', 'RParen')
+printOut(getLBracket(), '[', 'LBracket')
+printOut(getRBracket(), ']', 'RBracket')
+printOut(getPeriod(), '.', 'Period')
+printOut(getComma(), ',', 'Comma')
+printOut(getColon(), ':', 'Colon')
+printOut(getSemiColon(), ';', 'SemiColon')
+printOut(getExclamationPoint(), '!', 'ExclamationPoint')
+
+
+#print(len(getExclamationPoint([1],[1]))/8)#2
+#print(getExclamationPoint([10], [1,2,3,4]))
+'''
+chars = [ 'a', 'b', 'c', 'd', 'e', 'g', 'h', 'm', 'n', 'o', 'p', 'q', 's', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '@', '#', '$', '%', '&', '*', '-', '_', '=', '+', '?', 'f', 'j', 'k', 'r', 't', 'i', 'l', 'I', '(', ')', '[', ']', '.', ',', ':', ';', '!']
+'''
