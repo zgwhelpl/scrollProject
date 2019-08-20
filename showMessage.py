@@ -61,7 +61,7 @@ def showMessage(text, **kwargs):
                 else:
                     matrix[inst] = [fontColor[0], fontColor[1], fontColor[2]] #set that inst to t = [255, 255, 255]
             else : #otherwise its a 0
-                if (BGimage is not False):
+                if (BGimage is not False and not BGisFontColor):
                     matrix[inst] = BGimage[inst]
                 else:
                     matrix[inst] = [backGround[0], backGround[1], backGround[2]] #so set it to b = [0, 0, 0] / background
