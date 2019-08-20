@@ -1,16 +1,5 @@
 #characters
-''' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' '''
-'''This library (library?) is meant to provide (return) an 8xN matrix for each character'''
-'''meaning that each matrix will be 8 tall and the length of each row will be a variable'''
-'''length depending on the character. Each character will have at least a 1 block buffer'''
-'''on both the top and the right most col/row. KEY: i = args[1] color, x = character '''
-''' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' '''
-x = [255, 255, 255]
-i = [0, 0, 0]
-backGround = i
-font = x
-x = 'x'
-i = 'i'
+
 class character():
 	"""docstring for character"""
 

@@ -6,18 +6,19 @@ sense = SenseHat()
 
 x = [100, 0, 0]
 y = [0, 0, 100]
+r = [50, 0, 0]
+w = [50, 50, 50]
+b = [0, 0, 50]
 
-image = [
-    x, y, x, y, x, y, x, y,
-    y, x, y, x, y, x, y, x,
-    x, y, x, y, x, y, x, y,
-    y, x, y, x, y, x, y, x,
-    x, y, x, y, x, y, x, y,
-    y, x, y, x, y, x, y, x,
-    x, y, x, y, x, y, x, y,
-    y, x, y, x, y, x, y, x
+usFlag = [
+    b, w, b, w, r, r, r, r,
+    w, b, w, b, w, w, w, w,
+    b, w, b, w, r, r, r, r,
+    w, b, w, b, w, w, w, w,
+    r, r, r, r, r, r, r, r,
+    w, w, w, w, w, w, w, w,
+    r, r, r, r, r, r, r, r,
+    w, w, w, w, w, w, w, w
     ]
 
-sense.set_pixels(image)
-sleep(1)
-showMessage("Testy McGee*", BGimage = image)
+showMessage("'Murica!'", BGimage = usFlag)
