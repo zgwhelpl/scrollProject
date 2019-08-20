@@ -48,6 +48,7 @@ def showMessage(text, **kwargs):
             BGimage = kwargs.get('BGimage')
             if 'BGisFontColor' in kwargs:
                 BGisFontColor = kwargs.get('BGisFontColor')
+                backGround = [0, 0, 0]
                
     sen = sentence(text)
     
@@ -55,7 +56,10 @@ def showMessage(text, **kwargs):
         matrix = sen.frame(index) #this is the slide at that frame
         for inst in range(64): #for each part of the slide (all 64)
             if matrix[inst]: #they should be 1's and 0's, so if 1
-                matrix[inst] = [fontColor[0], fontColor[1], fontColor[2]] #set that inst to t = [255, 255, 255]
+                if BGisFontColor:
+                    matrix[inst] = BGimage[inst]
+                else:
+                    matrix[inst] = [fontColor[0], fontColor[1], fontColor[2]] #set that inst to t = [255, 255, 255]
             else : #otherwise its a 0
                 if (BGimage is not False):
                     matrix[inst] = BGimage[inst]
