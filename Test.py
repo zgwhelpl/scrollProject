@@ -21,4 +21,4 @@ usFlag = [
     w, w, w, w, w, w, w, w
     ]
 
-showMessage("'Murica!'", BGimage = usFlag)
+showMessage("'Murica!'", BGimage = usFlag, font=[135,135,135])

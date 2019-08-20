@@ -48,8 +48,7 @@ def showMessage(text, **kwargs):
                 BGimage = kwargs.get('BGimage')
         else:
             BGimage = False
-            
-    print(flagRaised)    
+               
     sen = sentence(text)
     
     for index in range(sen.maxIndex+1): #for each frame of the slide
@@ -66,9 +65,3 @@ def showMessage(text, **kwargs):
         sense.set_pixels(matrix)#that type of matrix is feedable into set_pixels
         sleep(speed)
         
-'''showMessage("hello world", font=[255, 0, 255] )
-showMessage("hello again", backGround=[100, 0, 0])
-showMessage("fast ball! Vroom", speed = .05)#'''
-
-#showMessage("Supes is fast", font=[255, 0, 0], backGround=[0, 0, 255], speed= .05)
-#showMessage("t", font = [0, 255, 0], backGround=[0, 100, 0], speed = .25)
